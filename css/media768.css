@@ -1,0 +1,49 @@
+@media (max-width: 352px){
+    .item-1 {
+		z-index: 2;
+		opacity: 1;
+		background:url('http://aviacenter.events/upload/iblock/470/4705e64b886f3e2f9cd25f59924c2592.jpg') no-repeat center;
+		background-size:contain;
+	}
+	.item-2{
+		background:url('http://waarmedia.com/file/2018/05/noticia-samara-300x169.jpg') no-repeat center;
+		background-size:contain;
+	}
+	.item-3{
+		background: url('https://ocdn.eu/pulscms-transforms/1/7QgktkqTURBXy9kMDZhMzU5NDMzYzIyMzY2YmNkNTdmYjcwZjg5MjIyZi5qcGVnkpUDAATNAlzNAVSTBc0B4M0BaA') no-repeat center;
+		background-size:contain;
+	}
+}
+@media (max-width: 720px){
+    #pastillas{
+        justify-content: space-around;
+    }
+    .guardian {
+        height: auto;
+    }
+    nav{
+        margin: 0;
+    }
+    nav ul{
+        padding: 0;
+    }
+    nav ul li{
+        padding: .5em 0;
+        margin: 1em auto ;
+        display: block;
+        width: 100%;
+        background: lightgreen;
+        text-align: center;
+    }
+    nav ul li a:hover{
+        border-bottom: none;
+    }
+    .desc{
+        height: auto;
+        text-align: justify;
+        width: 10em;
+        padding: .5em;
+        background-color: #608080;
+    }
+
+}

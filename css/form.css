@@ -1,0 +1,39 @@
+#form{
+    margin: auto;
+    display: block;
+    max-width: 50em;
+}
+
+#form input[type='submit']:hover {
+    background-color: lightgreen;
+}
+#form input:focus{
+    background-color: lightgreen;
+    border-left: 1px solid rgb(128, 238, 39);
+}
+#form input{
+    display: inline-block;
+    width: 100%;
+    height: 3em;
+    border: 1px solid rgb(128, 238, 39);
+    border-left: 3px solid rgb(128, 238, 39);
+    border-radius: 5px;
+    outline: none;
+}
+#form textarea:focus{
+    background-color: lightgreen;
+    border-left: 1px solid rgb(128, 238, 39);
+}
+#form textarea{
+    width: 100%;
+    border: 1px solid #eee;
+    border-left: 3px solid rgb(128, 238, 39);
+    border-radius: 5px;
+}
+
+#form textarea{
+    height: 15em;
+    display: block;
+    resize: none;
+    width: 100%;
+}

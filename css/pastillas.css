@@ -1,0 +1,27 @@
+.guardian {
+    /*max-height: 10em;*/
+}
+.desc{
+    display: block;
+    text-align: justify;
+    width: 10em;
+    height: 0;
+    padding: .1em;
+    overflow: hidden;
+    background-color: #608080;
+}
+
+.pasti:hover+.desc{
+    height: 25em;
+    width: 10em;
+    padding: .5em;
+}
+
+.pasti:hover{
+    background-color: gray;
+}
+.pasti img {
+    width: 2em;
+}
+
+

@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 0;
+    transition: 0.5s;
+}
+
+body{
+    font-family: Ubuntu, sans-serif;
+    background-color: rgb(13, 170, 7);
+    color: #000;
+}
+
+.wrapper{
+    border: solid whitesmoke 3px;
+    border-radius: 3%;
+    margin: .5em;
+}
+
+article, section, #form{
+    margin: 3em 0;
+}
+
+#pastillas{
+    z-index: -1;
+    max-width: 70em;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pasti{
+    width: 2em;
+    height: 2em;
+    font-size: 5em;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 2em;
+    overflow: hidden;
+}
+
+.blue{
+    background-color:cornflowerblue;
+}
+.yellow{
+    background-color:yellow;
+}
+.green{
+    background-color:lightgreen;
+}
+.red{
+    background-color:indianred;
+}
+
+.main{
+    max-width: 70em;
+    margin: auto;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#main article{
+    display: inline-block;
+    max-width: 200px;
+}
+
+#main article p {
+    height: 25em;
+    padding: 1em;
+    background-color: rgba(0, 255, 255,0.2);
+}
+article img{
+    height: 11em;
+    width: 11em;
+    border-radius: 20%;
+}
+article img:hover{
+    border-radius:5%;
+}
+
+#promo{
+    display: block;
+    text-align: center;
+    height: auto;
+    line-height: 20em;
+    border-bottom: rebeccapurple 3px ;
+    border-top: rebeccapurple 3px;
+}
+
+.hidd:hover{
+	color:rgba(0,0,0,1);	
+}
+.hidd{
+		margin-top:1em;
+		text-align:center;
+		color:rgba(0,0,0,0);
+		line-height:1em;
+		overflow:hidden;
+}
