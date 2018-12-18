@@ -1,29 +1,26 @@
 .guardian {
-    height: 30em;
-    overflow: hidden;
+    max-height: 40em;
+    max-width: 15em;
 }
 
 .desc{
     display: block;
-    text-align: justify;
+    text-align: center;
+    height: 20em;
     width: 10em;
-    height: 0;
-    padding: .1em;
-    overflow: hidden;
-    background-color: #608080;
+    padding: 1em;
+    background: linear-gradient(30deg,#ef0055,orangered);
+    box-shadow: #666666 5px 5px 2px;
+    border-radius: 1em;
 }
+.pasti{
 
-.pasti:hover+.desc{
-    height: inherit;
-    width: 10em;
-    padding: .5em;
-}
-
-.pasti:hover{
-    background-color: gray;
+    box-shadow:#666666 5px 5px 2px;
 }
 .pasti img {
     width: 2em;
 }
 
-
+.desc h2{
+margin-bottom: .5em;
+}
