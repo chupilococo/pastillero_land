@@ -12,9 +12,10 @@ body{
 }
 
 .wrapper{
-    border: solid whitesmoke 3px;
+/*    border: solid whitesmoke 3px;
     border-radius: 3%;
     margin: .5em;
+    */
 }
 
 article, section, #form{

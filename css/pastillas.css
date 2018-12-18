@@ -1,6 +1,8 @@
 .guardian {
-    /*max-height: 10em;*/
+    height: 30em;
+    overflow: hidden;
 }
+
 .desc{
     display: block;
     text-align: justify;
@@ -12,7 +14,7 @@
 }
 
 .pasti:hover+.desc{
-    height: 25em;
+    height: inherit;
     width: 10em;
     padding: .5em;
 }
